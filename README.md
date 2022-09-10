@@ -1,8 +1,5 @@
-# DataCluster
-Data Clustering for participate in the Financial Data Contest 2022
-
 ## 지조있는 만남(소비데이터 기반 친구 매칭 시스템)
-
+Data Clustering for participate in the Financial Data Contest 2022
 
 # ~ 기대효과 ~ 
 
