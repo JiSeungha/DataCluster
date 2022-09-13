@@ -10,8 +10,15 @@ Data Clustering for participate in the Financial Data Contest 2022
 셋째, 매칭 시장의 성장에 따라 데이터 거래소 역시 활성화 할 수 있습니다. 현재 채용 광고 시장 규모는 헤드헌팅·후불형 채용 등 매칭 상품을 포함하면 2조원 가량입니다. 다올투자증권은 연간 채용 인력과 수수료를 감안할 때 2025년 국내 시장 규모가 3조8000억원에 달할 것이라고 전망했습니다. 이처럼 커져가는 P2P 매칭 시스템 시장에 맞추어 데이터거래소 플랫폼 역시 활성화 될 수 있으리라 기대합니다.
 
 
+# Pseudo
+1. clustering을 통한 계층 분류
+2. cos similarity 등의 유사도 측정을 바탕으로 새로운 데이터가 어느 그룹에 속하는 지 확인
+3. 새로운 data를 추가하고 다시 clustering을 통해 계층 분류
+
+
 # Implementation
 
+Clustering
 1. 모든 point에 대해 각 point에서 directly density reachable한 point들을 구하고, core인지 확인한다.
 2. core가 아닌 경우, outlier로 mark한 후 다음 point를 탐색한다.
 3. core인 경우, 새로운 cluster를 생성하여 현재 point와 directly density reachable한 point들을 추가한다.
